@@ -9,7 +9,7 @@ function ProfessionalExperience() {
 
   return (
     <Grid
-      sx={{ backgroundColor: "SteelBlue" }}
+      sx={{ backgroundColor: "limegreen" }}
       padding={"2%"}
       container
       collums={12}

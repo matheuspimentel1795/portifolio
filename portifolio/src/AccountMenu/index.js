@@ -28,6 +28,7 @@ export default function AccountMenu() {
           display: "flex",
           alignItems: "center",
           textAlign: "center",
+          background:'limegreen',
           justifyContent: "flex-end",
         }}
       >

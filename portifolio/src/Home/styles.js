@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const ProfileImage = styled.img`
-    width: 500px;
-    height: 600px;
-    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 `
 export const ProfileImageMobile = styled.img`
     width: 40%;

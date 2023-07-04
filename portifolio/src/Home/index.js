@@ -3,22 +3,23 @@ import {
     useMemo,
   } from 'react'
 import profile from '../assets/profile.jpg'
+import perfil from '../assets/perfil.jpg'
 import { ProfileImage, ProfileImageMobile } from './styles';
 
 function Home () {
     const { innerWidth: screenWidth } = window
     const isMobile = useMemo(() => screenWidth < 768, [screenWidth])
     return (
-        <Grid sx={{backgroundColor: 'SteelBlue', width: '100%'}} display={!isMobile ?'flex' : 'grid'} alignItems={'center'} textAlign={isMobile? 'center': ''} justifyContent={'center'} padding={"2%"} container collums={12}>
-            <Grid sm={5} xs={12}  item >
+        <Grid sx={{backgroundColor: 'limegreen', width: '100%'}} display={!isMobile ?'flex' : 'grid'} alignItems={'center'} textAlign={isMobile? 'center': ''} justifyContent={!isMobile? 'flex-start': 'center'} padding={"2%"} container collums={12}>
+            <Grid sm={4} xs={12}  item >
             {!isMobile?
-            <ProfileImage src={profile}/>
+            <ProfileImage src={perfil}/>
             :
-            <ProfileImageMobile src={profile}/>
+            <ProfileImageMobile src={perfil}/>
             }
             
             </Grid>
-            <Grid sm={6} xs={12} item>          
+            <Grid  sm={6} xs={12} item>          
             <h1>Quem sou eu</h1>
             <h3>Sempre fui um entusiasta pela área de
 tecnologia. Fiz minha migração de carreira da
