@@ -1,4 +1,4 @@
-# portifolio
+# Portfólio
 
 * Portifólio desenvolvido utilizando ReactJs.
 
